@@ -1,0 +1,47 @@
+
+
+.requestCard {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: .4rem 0;
+}
+
+.header {
+  display: flex;
+  padding: .7rem .2rem;
+}
+
+.headerContent {
+  flex: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  align-self: center;
+  margin-left: .2rem;
+}
+
+.left {
+  padding: .2rem .7rem;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  padding: .2rem .7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.tableContainer {
+  overflow: auto;
+  table {
+    min-width: 280px;
+  }
+}
+
+

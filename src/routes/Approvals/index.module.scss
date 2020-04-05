@@ -1,0 +1,8 @@
+@import 'constants.module.scss';
+
+.approve {
+  background-color: rgba($success, .8);
+  &:hover {
+    background-color: $success;
+  }
+}

@@ -1,0 +1,27 @@
+.loader {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.center {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: 7rem;
+  color: #9D9A96;
+}
+
+.message {
+  margin: .3rem;
+  color: #9D9A96;
+  text-transform: none;
+  text-align: center;
+}

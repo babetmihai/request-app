@@ -1,0 +1,39 @@
+
+@import 'constants.module.scss';
+
+.alerts {
+  z-index: 2000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+  padding-top: 1rem;
+}
+
+.alert {
+  pointer-events: auto;
+  margin: .5rem;
+  padding: 0 1rem;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+
+  p {
+    margin-left: .5rem;
+    color: #ffffff;
+  }
+}
+
+.success {
+  background-color: $success;
+}
+
+.error {
+  background-color: $secondary;
+}

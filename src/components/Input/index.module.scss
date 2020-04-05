@@ -1,0 +1,20 @@
+.input {
+  display: flex;
+  flex-direction: column;
+
+  .initialValue {
+    word-break: break-all;
+    white-space: normal;
+  }
+
+  .inputButton {
+    flex: none;
+    margin: 0;
+    padding: 0 .5rem;;
+  }
+
+  .error {
+    flex: none;
+    display: flex;
+  }
+}

@@ -1,0 +1,87 @@
+@import 'constants.module.scss';
+
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#root {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #EFECE5;
+}
+
+#app-loader {
+  animation: spin 500ms infinite linear;
+  visibility: visible;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+}
+
+h1 {
+  color: #9D9A96;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  text-shadow: 1px 1px #6E6C6C;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: normal;
+  padding: 0;
+  color: #6E6C6C;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.1rem;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: normal;
+  padding: 0;
+  color: #6E6C6C;
+  margin: .1rem;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #616161;
+  transition: all 0.2s ease 0s;
+}
+
+label {
+  font-size: .7em;
+  margin: .3em 0;
+}
+
+.spacer {
+  margin: .3rem;
+}

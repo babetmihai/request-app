@@ -1,0 +1,43 @@
+@import 'constants.module.scss';
+
+.login {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-top: 20vh;
+}
+
+.header {
+  display: flex;
+  padding: 1rem;
+  background-color: $primary;
+}
+
+.content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin: .5rem 0;
+}
+
+.actions {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.button {
+  margin: .5rem 0;
+}

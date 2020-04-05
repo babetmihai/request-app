@@ -1,0 +1,20 @@
+@import 'constants.module.scss';
+
+
+.historyTable {
+  margin: .5rem;
+  overflow: auto;
+}
+
+.table {
+  min-width: 320px;
+}
+
+.requestCell {
+  display: flex;
+  align-items: center;
+}
+
+.loading {
+  animation: spin 1000ms infinite linear;
+}

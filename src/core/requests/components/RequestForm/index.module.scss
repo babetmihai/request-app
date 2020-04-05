@@ -1,0 +1,17 @@
+
+.requestForm {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.addButton {
+  margin: .5rem;
+  align-self: flex-start;
+}
+
+.date {
+  align-self: flex-start;
+  min-width: 8rem
+}

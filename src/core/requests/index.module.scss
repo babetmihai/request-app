@@ -1,0 +1,71 @@
+
+.request {
+  display: flex;
+  margin: .3rem 0;
+}
+
+.rightContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 5px 0 6px -5px rgba(0,0,0,0.4);
+
+  input, textarea {
+    color: rgba(0, 0, 0, 0.87) !important;
+  }
+}
+
+.header {
+  display: flex;
+}
+
+.button {
+  align-self: center;
+  margin: -.5rem;
+  margin-left: .5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: .6rem .9rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: .6rem;
+}
+
+.action {
+  margin: .6rem;
+}
+
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.field {
+  flex: auto;
+  margin: .5rem;
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  margin: .5rem .3rem;
+
+  .lineField {
+    margin: 0 .2rem;
+    flex: auto;
+    &:first-child {
+      flex-grow: 3;
+    }
+    &:last-child {
+      flex-grow: 1;
+      width: 3.5rem;
+    }
+  }
+}

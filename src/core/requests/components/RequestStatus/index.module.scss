@@ -1,0 +1,19 @@
+@import 'constants.module.scss';
+
+.cardStatus {
+  flex: none;
+  flex-basis: 1rem;
+  background: linear-gradient(to top, rgba($primary, .8), $primary);
+}
+
+.pending {
+  background: linear-gradient(to top, rgba($pending, .8), $pending);
+}
+
+.rejected {
+  background: linear-gradient(to top, rgba($secondary, .8), $secondary);
+}
+
+.completed {
+  background: linear-gradient(to top, rgba($success, .8), $success);
+}

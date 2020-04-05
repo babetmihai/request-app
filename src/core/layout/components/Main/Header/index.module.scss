@@ -1,0 +1,36 @@
+@import 'constants.module.scss';
+
+.header {
+  flex: none;
+  position: sticky;
+  top: 0;
+  display: flex;
+  background: linear-gradient(to left, rgba($primary, .9), $primary);
+  z-index: 100;
+  padding: 0 1rem;
+}
+
+.left {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: .9rem .3rem;
+}
+
+.title {
+  margin: .3rem 0;
+}
+
+.link {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #9D9A96;
+  transition: all 0.2s ease 0s;
+}
+
+.logout {
+  margin: 0.2rem;
+  color: #ffffff;
+}

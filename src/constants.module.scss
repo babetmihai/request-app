@@ -1,0 +1,15 @@
+
+@keyframes spin {
+  from { transform:rotate(0deg); }
+  to   { transform:rotate(360deg); }
+}
+
+$primary: #3E3C3C;
+$secondary: #BD5148;
+$success: #3A5F0B;
+$pending: #938200;
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+}

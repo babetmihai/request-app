@@ -1,0 +1,13 @@
+@import 'constants.module.scss';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgba($primary, .8), $primary);
+}
+
+.fab {
+  pointer-events: auto;
+  margin: .5rem;
+  color: #ffffff;
+}
