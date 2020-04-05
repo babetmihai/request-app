@@ -6,9 +6,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
+  max-width: none;
 }
 
 .form {
+  flex: none;
   display: flex;
   flex-direction: column;
   width: 280px;
